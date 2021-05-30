@@ -1,0 +1,69 @@
+html,body {
+	height: 100%;
+}
+
+body{
+	background-color: #fffff
+	font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+ .brand {
+	width: 70px;
+	height: 70px;
+	margin: 40px auto;
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 90%;
+}
+
+.my-login-page .card-wrapper {
+	width: 35%;
+}
+
+.card-body {
+	padding: 10px;
+    background: #f6f8fa;
+    border-radius: 10px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 8px;
+}
+
+.my-login-page .footer {
+	margin: 40px 0 0 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+
+}
+@media  and (min-width: 994px) {
+    .my-login-page .footer {
+        margin: auto;
+        color: #888;
+        text-align: center;
+    }
+}
